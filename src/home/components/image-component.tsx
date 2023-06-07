@@ -1,25 +1,17 @@
 import React, { useState } from "react";
 import { View, Image, Button, StyleSheet, TouchableOpacity, Text } from "react-native";
 
-export default function App() {
-    const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
-    const images = [
-        require("../../../assets/adaptive-icon.png"),
-        require("../../../assets/favicon.png"),
-        require("../../../assets/icon.png"),
-    ];
+interface Props {
+    propsImage: any
+}
 
-    const handlePress = () => {
-        setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
-    };
+
+export default function ImageComponent(props: Props) {
 
     return (
         <View style={styles.container}>
-            <Image style={styles.image} source={images[currentImageIndex]} />
-            <TouchableOpacity style={styles.button} onPress={() => { handlePress(); }}>
-                <Text style={styles.buttonText}>Clique</Text>
-            </TouchableOpacity>
+            <Image style={styles.image} source={props.propsImage} />
         </View>
     );
 }
@@ -34,19 +26,6 @@ const styles = StyleSheet.create({
     image: {
         width: 200,
         height: 200,
-    },
-    button: {
-        backgroundColor: '#f4511e',
-        borderRadius: 5,
-        paddingVertical: 10,
-        paddingHorizontal: 20,
-        marginTop: 10,
-    },
-
-    buttonText: {
-        color: 'black',
-        fontSize: 18,
-        fontWeight: 'bold',
-        textAlign: 'center',
-    },
+    }
+   
 });

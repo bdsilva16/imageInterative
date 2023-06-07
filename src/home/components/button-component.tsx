@@ -1,5 +1,5 @@
 import React from "react";
-import { TouchableHighlight, View, Text, StyleSheet, TouchableOpacity } from "react-native";
+import {  View, Text, StyleSheet, TouchableOpacity } from "react-native";
 
 
 interface Props {
@@ -51,5 +51,19 @@ const styles = StyleSheet.create({
         fontWeight: 'bold',
         textAlign: 'center',
     },
+    // button: {
+    //     backgroundColor: '#f4511e',
+    //     borderRadius: 5,
+    //     paddingVertical: 10,
+    //     paddingHorizontal: 20,
+    //     marginTop: 10,
+    // },
+
+    // buttonText: {
+    //     color: 'black',
+    //     fontSize: 18,
+    //     fontWeight: 'bold',
+    //     textAlign: 'center',
+    // },
 
 })
