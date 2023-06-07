@@ -21,8 +21,8 @@ const styles = StyleSheet.create({
         flex: 1,
         alignItems: "center",
         justifyContent: "center",
-        marginTop: 200,
-        margin:100
+        marginTop: 100,
+        margin:80
     },
     image: {
         width: 200,
