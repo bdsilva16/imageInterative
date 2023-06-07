@@ -3,7 +3,7 @@ import { View, Image, Button, StyleSheet, TouchableOpacity, Text } from "react-n
 
 
 interface Props {
-    propsImage: any
+    propsImage: any 
 }
 
 

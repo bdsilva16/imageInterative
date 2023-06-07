@@ -2,11 +2,11 @@ import React from "react";
 import { View, StyleSheet, Text } from "react-native";
 
 interface Props{
-    titleApp:string
+    titleApp:string 
 }
 
 interface State{
-
+ 
 }
 
 export default class TitleComponent extends React.Component<Props, State> {

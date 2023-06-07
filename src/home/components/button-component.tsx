@@ -19,7 +19,7 @@ export default function ButtonComponent(props: Props) {
             </TouchableOpacity>
 
         </View>
-    );
+    ); 
 
 }
 

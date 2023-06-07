@@ -9,7 +9,7 @@ interface Props {
 
 }
 
-
+ 
 export default function App(props: Props) {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
