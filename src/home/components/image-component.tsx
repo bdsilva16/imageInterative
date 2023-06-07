@@ -21,11 +21,13 @@ const styles = StyleSheet.create({
         flex: 1,
         alignItems: "center",
         justifyContent: "center",
-        marginTop: 200
+        marginTop: 200,
+        margin:100
     },
     image: {
         width: 200,
         height: 200,
+        
     }
    
 });

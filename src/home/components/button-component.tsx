@@ -29,7 +29,8 @@ const styles = StyleSheet.create({
         backgroundColor: 'yellow',
         alignItems: 'center',
         justifyContent: 'center',
-        marginTop: 200
+        marginTop: 200,
+        
     },
 
     button: {
@@ -41,7 +42,8 @@ const styles = StyleSheet.create({
         height: 100,
         borderRadius: 100,
         borderColor: 'red',
-        borderWidth: 2,
+        borderWidth: 5,
+      
 
 
     },
@@ -50,6 +52,7 @@ const styles = StyleSheet.create({
         fontSize: 18,
         fontWeight: 'bold',
         textAlign: 'center',
+       
     },
     // button: {
     //     backgroundColor: '#f4511e',
