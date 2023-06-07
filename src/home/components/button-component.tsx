@@ -25,11 +25,9 @@ export default function ButtonComponent(props: Props) {
 
 const styles = StyleSheet.create({
     container: {
-        flex: 1,
-        backgroundColor: 'yellow',
         alignItems: 'center',
         justifyContent: 'center',
-        marginTop: 200,
+        marginTop: 150,
         
     },
 
@@ -43,9 +41,7 @@ const styles = StyleSheet.create({
         borderRadius: 100,
         borderColor: 'red',
         borderWidth: 5,
-      
-
-
+        marginBottom:100
     },
     buttonText: {
         color: 'red',
